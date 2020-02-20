@@ -1,0 +1,102 @@
+hr {
+    width: 80%; 
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+header {
+	display: flex;
+	padding: 3% 0 0 0;
+	justify-content: space-evenly;
+}
+
+header img {
+	width: 10%;
+}
+
+nav {
+	display: flex;
+	width: 98%;
+	justify-content: space-evenly;
+}
+
+.main-image {
+    text-align: center; 
+    
+}
+
+.services-header-img {
+    margin: 2% 0 0 0%;
+    width: 80%;
+    
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.services section {
+    text-align: left;
+    width: 80%;
+    
+}
+
+.service-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.service-info section {
+    border: 2px solid lightblue;
+    margin: 1%;
+    padding: 20px;
+    text-align: left;
+    width: 37%;
+    
+}
+
+.facts {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.facts ul {
+    margin-top: 12%;
+}
+
+.facts-img {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.facts section {
+    
+    margin: 1%;
+    text-align: left;
+    width: 39%;
+    height: 300px;
+}
+
+
+.copyright {
+	text-align: center;
+}
+
