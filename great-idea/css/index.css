@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+	display: flex;
+	padding: 3% 0 0 0;
+	justify-content: space-evenly;
+}
+
+header img {
+	width: 10%;
+}
+
+nav {
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+}
+
+.intro section {
+	margin: 5%;
+}
+
+.intro-a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+}
+
+.intro-b img {
+	width: 95%;
+	height: 95%;
+}
+
+h1 {
+	text-align: center;
+}
+
+hr {
+	width: 75%;
+}
+
+@media screen and (min-width: 601px) {
+	h1 {
+	  font-size: 80px;
+	}
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+	h1 {
+	  font-size: 30px;
+	}
+  }
+
+
+.company-info-a {
+	  display: flex;
+	  justify-content: center;
+}
+
+.company-info-a section {
+	margin: 3%;
+	width: 34%
+}
+
+.more-code {
+	text-align: center;
+}
+
+.more-code img {
+	width: 75%;
+}
+
+.company-info-b {
+	display: flex;
+	justify-content: center;
+}
+
+.company-info-b section {
+  margin: 3%;
+  width: 21%
+}
+
+.my-footer {
+	text-align: left;
+	width: 95%;
+	margin: 3% 0 0 13%;
+}
+
+.my-footer section {
+	width: 89%;
+}
+
+.copyright {
+	text-align: center;
+}
+
