@@ -109,7 +109,7 @@ h1 {
 }
 
 hr {
-	width: 75%;
+	width: 80%;
 }
 
 a {
@@ -136,42 +136,66 @@ a img {
   }
 
 
+
+
+
+
+
 .company-info-a {
-	  display: flex;
-	  justify-content: center;
+	display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .company-info-a section {
-	margin: 3%;
-	width: 34%
+	margin: 1%;
+    text-align: left;
+    width: 39%;
 }
+
+
+
+
+
+
 
 .more-code {
 	text-align: center;
 }
 
 .more-code img {
-	width: 75%;
+	width: 80%;
 }
 
 .company-info-b {
 	display: flex;
-	justify-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .company-info-b section {
-  margin: 3%;
-  width: 21%
+	margin: 1%;
+    text-align: left;
+    width: 25%;
 }
 
 .my-footer {
-	text-align: left;
-	width: 95%;
-	margin: 3% 0 0 13%;
+	display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .my-footer section {
-	width: 89%;
+	margin: 1%;
+    text-align: left;
+    width: 39%;
+    height: 300px;
 }
 
 .copyright {
