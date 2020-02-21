@@ -155,12 +155,6 @@ a img {
     width: 39%;
 }
 
-
-
-
-
-
-
 .more-code {
 	text-align: center;
 }
@@ -174,7 +168,7 @@ a img {
     text-align: center;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .company-info-b section {
@@ -185,17 +179,12 @@ a img {
 
 .my-footer {
 	display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+	justify-content: center;
+	
 }
 
 .my-footer section {
-	margin: 1%;
-    text-align: left;
-    width: 39%;
-    height: 300px;
+	width: 80%;
 }
 
 .copyright {
