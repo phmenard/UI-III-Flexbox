@@ -72,6 +72,11 @@ a {
     color: gray;
 }
 
+a img {
+	width: 200px;
+	height: 45px;
+}
+
 
 
 header {
@@ -80,9 +85,7 @@ header {
 	justify-content: space-evenly;
 }
 
-header img {
-	width: 10%;
-}
+
 
 nav {
 	display: flex;
