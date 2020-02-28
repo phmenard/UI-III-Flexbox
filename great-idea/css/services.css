@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, 
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -63,53 +63,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-header {
-	display: flex;
-	padding: 3% 0 0 0;
-	justify-content: space-evenly;
-}
-
-header img {
-	width: 10%;
-}
-
-nav {
-	display: flex;
-	width: 98%;
-	justify-content: space-evenly;
-}
-
-
-.intro {
-	display: flex;
-	justify-content: center;
-}
-
-.intro section {
-	margin: 5%;
-}
-
-.intro-a {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 30%;
-}
-
-.intro-b img {
-	width: 95%;
-	height: 95%;
-}
-
-h1 {
-	text-align: center;
-}
-
 hr {
-	width: 80%;
+    width: 80%; 
 }
 
 a {
@@ -122,70 +77,99 @@ a img {
 	height: 45px;
 }
 
-@media screen and (min-width: 601px) {
-	h1 {
-	  font-size: 80px;
-	}
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-	h1 {
-	  font-size: 30px;
-	}
-  }
 
 
-
-
-
-
-
-.company-info-a {
+header {
 	display: flex;
+	padding: 3% 0 0 0;
+	justify-content: space-evenly;
+}
+
+
+
+nav {
+	display: flex;
+	width: 98%;
+	justify-content: space-evenly;
+}
+
+.main-image {
+    text-align: center; 
+    
+}
+
+.services-header-img {
+    margin: 2% 0 0 0%;
+    width: 80%;
+    
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.services section {
+    text-align: left;
+    width: 80%;
+    margin: 1% 0 1% 0;
+    
+}
+
+.service-info {
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
+    
 }
 
-.company-info-a section {
-	margin: 1%;
+.service-info section {
+    border: 2px solid lightblue;
+    margin: 1%;
+    padding: 20px;
     text-align: left;
     width: 39%;
+    
 }
 
-.more-code {
-	text-align: center;
+.service-info p {
+    margin-bottom: 3%;
 }
 
-.more-code img {
-	width: 80%;
-}
-
-.company-info-b {
-	display: flex;
+.facts {
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+    
 }
 
-.company-info-b section {
-	margin: 1%;
+.facts ul {
+    margin-top: 12%;
+}
+
+.facts-img {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.facts section {
+    
+    margin: 1%;
     text-align: left;
-    width: 25%;
+    width: 39%;
+    height: 300px;
 }
 
-.my-footer {
-	display: flex;
-	justify-content: center;
-	
-}
-
-.my-footer section {
-	width: 80%;
-}
 
 .copyright {
 	text-align: center;
